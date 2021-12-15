@@ -242,3 +242,5 @@ class PersistentList:
 
     def __repr__(self):
         return 'PersistentList '+self.list.__str__()
+
+    
