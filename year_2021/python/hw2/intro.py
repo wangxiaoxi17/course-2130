@@ -26,4 +26,3 @@ def filter_by_indices(lst: Optional[List[Any]], indices: Optional[List[Any]]):
 # filter_by_indices(lst, [0, 1, 7])
 # print(lst)
 
-
