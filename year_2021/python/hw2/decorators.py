@@ -46,7 +46,6 @@ def call_rectifier(func1, func2, func3, func4):
 def say_hello():
     print('привет')
 
-
 say_hello()
 
 
