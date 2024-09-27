@@ -129,23 +129,4 @@ def get_new_mail(dic, second=5):
 
        
 
-        time.sleep(second)
-
-
-if __name__ == '__main__':
-    dic = {
-        'user_email': 'xxx@qq.com',
-        'password': 'xxx',
-    }
-    print('Listening for new messages on the mail server side---')
-    try:
-        iterator = get_new_mail(dic)
-    except TypeError:
-        print('Listening to the wrong content, there are images, data, etc., can not be parsed and reported an error, not plain text content')
-    else:
-        for dic in iterator:
-            
-            print('-' * 30)
-            print("Email tittle:%s\nSender:%s\nSender Email:%s\nMail content:%s" % (
-                dic["title"], dic["sender"], dic["sender_email"], dic["email_content"]))
-            print('-' * 30)
+        
